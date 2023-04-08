@@ -1,10 +1,11 @@
-import './App.module.css';
+import Header from '../Header/Header';
+
+import './App.module.scss';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      </header>
+      <Header />
     </div>
   );
 }

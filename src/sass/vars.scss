@@ -1,0 +1,27 @@
+// COLORS
+$color-gray-100: #f7fafc;
+$color-gray-200: #eff2f4;
+$color-gray-300: #dee2e7;
+$color-gray-400: #bdc4cd;
+$color-gray-500: #8b96a5;
+$color-gray-600: #505050;
+
+$color-text: #1c1c1c;
+
+$color-primary: #0d6efd;
+$color-secondary: #e3f0ff;
+
+$color-green-dark: #00b517;
+$color-green-light: #c3ffcb;
+
+$color-orange-dark: #ff9017;
+$color-orange-light: #ffe5bf;
+
+$color-red-dark: #fa3434;
+
+// FONTS
+@mixin text-400-12 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}

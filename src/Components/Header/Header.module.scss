@@ -1,0 +1,17 @@
+@import "../../sass/vars.scss";
+
+.header {
+  padding: 16px 0;
+  background-color: #ffffff;
+  border-bottom: 2px solid $color-gray-300;
+
+  @media (max-width: 768px) {
+    padding: 12px 0;
+  }
+}
+
+.headerInner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

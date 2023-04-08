@@ -1,0 +1,48 @@
+@import "./sass/vars.scss";
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: $color-text;
+  background-color: $color-gray-100;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+
+  @media (max-width: 1440px) {
+    width: 1180px;
+  }
+
+  @media (max-width: 1024px) {
+    width: 768px;
+  }
+
+  @media (max-width: 768px) {
+    width: 450px;
+  }
+
+  @media (max-width: 450px) {
+    width: 320px;
+  }
+
+  @media (max-width: 320px) {
+    width: 240px;
+  }
+}

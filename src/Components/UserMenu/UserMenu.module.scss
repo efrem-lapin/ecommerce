@@ -1,0 +1,52 @@
+@import "../../sass/vars.scss";
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item {
+  cursor: pointer;
+
+  &:hover {
+    .icon {
+      fill: $color-gray-600;
+    }
+
+    .link {
+      color: $color-gray-600;
+    }
+  }
+
+  &:not(:last-child) {
+    margin-right: 15px;
+
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+}
+
+.icon {
+  fill: $color-gray-500;
+  margin-bottom: 5px;
+  transition: fill 0.3s ease;
+}
+
+.link {
+  @include text-400-12;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $color-gray-500;
+
+  transition: color 0.4s ease;
+}
+
+.text {
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
